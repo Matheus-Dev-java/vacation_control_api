@@ -39,7 +39,7 @@
 | Java | 21 |
 | Spring Boot | 3.3 |
 | Spring Data JPA / Hibernate | 6.5 |
-| PostgreSQL | 16 |
+| PostgreSQL | 18 |
 | JUnit 5 + Mockito | — |
 | Docker Compose | — |
 
