@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: ferias_api_db
+    environment:
+      POSTGRES_DB: ferias_db
+      POSTGRES_USER: ferias_user
+      POSTGRES_PASSWORD: ferias_pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - ferias_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  ferias_data:
