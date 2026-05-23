@@ -1,2 +1,44 @@
-# Project exclude paths
-/target/
+# Compiled
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Spring Boot
+spring-shell.log
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# IDE - VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+*.env.local
+
+# Database
+*.sql.bak
